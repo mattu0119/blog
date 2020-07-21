@@ -1,5 +1,5 @@
 ---
-title: "de:code 2020 セッション"
+title: "de:code 2020 セッション動画"
 date: 2020-07-21 00:00:00 -0000
 categories: 
  - de:code2020

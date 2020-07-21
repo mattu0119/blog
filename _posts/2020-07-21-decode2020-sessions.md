@@ -2,9 +2,9 @@
 title: "de:code 2020 セッション"
 date: 2020-07-21 00:00:00 -0000
 categories: 
- - decode2020
+ - de:code2020
 tags: 
- - Azure infrastructure
+ - Azure IaaS
 ---
 
 + de:code 2020 セッション A11 Azure 10 周年の節目に見直したい、Azure インフラのちょっと大事な話

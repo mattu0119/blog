@@ -78,31 +78,31 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 私は、評価ガイド通り Sandbox 的な構成とはせず、オンプレの Hyper-V に Nested で Azure Stack HCI 用の仮想マシンを準備しました。既存の WAC 用仮想マシン(日本語OS)をそのまま流用したため、念のためシステムロケールをすべて英語に変更しました。
 
 1. システムロケールの設定を確認します。
-```
+```powershell
 Get-WinSystemLocale
 ```
 2. en-us 以外の場合は設定を変更します。
-```
+```powershell
 Set-WinSystemLocale -SystemLocale en-us
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/2.png" class="full" width="1000">
 
 3. 設定を反映させるため再起動したあとに、設定を確認します。
-```
+```powershell
 Get-WinSystemLocale
 ```
 
 ### 3. WAC と Azure Stack HCI OS のWinRMサービスを再起動
 1. WAC と Azure Stack HCI ノードの仮想マシンコンソールを起動し、管理者ユーザーでログインします。
 2.  下記コマンドを実行して WinRM サービスを再起動します。
-```
+```powershell
 Restart-Service WinRM
 ```
 リモートセッションでは実行できないので、それぞれの仮想マシンにログインして実施する必要があります。
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/3.png" class="full" width="1000">
 
 3. OS を再起動します。
-```
+```powershell
 Restart-Computer -Force
 ```
 4. WAC と Azure Stack HCI ノードすべての再起動が完了したら、再度クラスター検証を実施します。

@@ -59,7 +59,7 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 
 2. [クラスターの作成を停止しますか？] の表示で、[進捗状況をあとで保存する] にチェックを入れて、[はい] を選択します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/7.png" class="full" width="1000"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/7.png" class="full" width="600"> 
 
 クラスター作成のウィザードを開始すると、 
 
@@ -67,7 +67,7 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 
 クラスター作成を再開しますか？という画面が表示されます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/9.png" class="full" width="1000"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/9.png" class="full" width="600"> 
 
 [はい] をクリックすることで、クラスター検証から作業を再開することができます。
 

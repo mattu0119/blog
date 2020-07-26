@@ -54,18 +54,23 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 途中まで進めた状態を保存することで、クラスター検証の画面から作業を再開できます。システムロケール変更や WinRM 再起動を実施する前に、ウィザードの状態を保存しましょう。
 
 1. 途中終了するタイミングで、右下の [Exit] をクリックします。
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/6.png" class="full" width="1000"> 
 
 2. [クラスターの作成を停止しますか？] の表示で、[進捗状況をあとで保存する] にチェックを入れて、[はい] を選択します。
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/7.png" class="full" width="1000"> 
 
 クラスター作成のウィザードを開始すると、 
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/8.png" class="full" width="1000"> 
 
 クラスター作成を再開しますか？という画面が表示されます。
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/9.png" class="full" width="1000"> 
 
 [はい] をクリックすることで、クラスター検証から作業を再開することができます。
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/10.png" class="full" width="1000"> 
 
 

@@ -113,6 +113,7 @@ Restart-Computer -Force
 クラスターの検証が完了すると、検証レポートをダウンロードすることもできます。
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/5.png" class="full" width="1000">
 
-以上でクラスター検証がエラーになる対応は終了です。Evalation Guide にしたがって、クラスターやS2Dの有効化などを進めてください！
+私の環境では、CredSSPの対応をしなくてもクラスター検証のエラーを解消することができました。もし直らなかった場合は、CredSSP の対応も実施してみてください。
+Evalation Guide にしたがって、クラスターやS2Dの有効化などを進めてください！
 
 

@@ -113,6 +113,6 @@ Restart-Computer -Force
 クラスターの検証が完了すると、検証レポートをダウンロードすることもできます。
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/5.png" class="full" width="1000">
 
-以上でクラスター検証がエラーになる対応は終了です。Evalation Guide にしたがって、クラスターやS2Dの有効かなどを進めてください！
+以上でクラスター検証がエラーになる対応は終了です。Evalation Guide にしたがって、クラスターやS2Dの有効化などを進めてください！
 
 

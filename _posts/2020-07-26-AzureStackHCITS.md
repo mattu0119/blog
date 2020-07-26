@@ -32,7 +32,7 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 クラスター検証でエラーがでたというわけではなく、WAC から Azure Stack HCI ノードに対して WMI 通信ができずにクラスター検証を開始できなかったという内容のエラーです。
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/1.png" class="full" width="1000">
 
-私の他にも同じ問題が発生した人が多くいたようで、Github の Issue にあがっていました。
+私の他にも同じ問題が発生した人がいたようで、Github の Issue にあがっていました。
 
 + [Validation cluster failed #9
 ](https://github.com/Azure/AzureStackHCI-EvalGuide/issues/9 )

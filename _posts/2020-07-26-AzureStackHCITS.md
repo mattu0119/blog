@@ -31,6 +31,6 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 
 
 + クラスターの検証でエラー
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/1.png" alt="" class="full" width="800">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/1.png" class="full" width="1000">
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Azure Stack HCI のクラスター検証エラー"
+title: "WAC の Cluster Creation でクラスター検証エラー"
 date: 2020-07-26 00:00:00 -0000
 categories: 
  - AzureStack
@@ -7,7 +7,7 @@ tags:
  - HCI
 ---
 
-# Azure Stack HCI を WAC から構成する際にクラスター検証でエラーで進めない事象
+# Azure Stack HCI 20H2 を WAC から構成する際にクラスター検証でエラーで進めないエラー
 
 ## Azure Stack HCI 20H2 について
 先週開催された Micosoft Inspire 2020 で、Azure Stack HCI Version 20H2 が発表されました。

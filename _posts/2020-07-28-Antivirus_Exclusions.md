@@ -21,7 +21,6 @@ Uninstall-WindowsFeature -Name Windows-Defender
 + Windows Defender GUI をアンインストール
 ```powershell
 Uninstall-WindowsFeature -Name Windows-Defender-GUI
-
 ```
 # Windows Server のアンチウイルス除外設定
 

@@ -8,7 +8,7 @@ tags:
 ---
 
 ## Windows Defender のアンインストール
-3rd パーティーのアンチウイルスソフトウェアを利用する際は、既定でインストールされている Microsoft Defender Antivirus をアンインストールすることが推奨されています。
+3rd パーティーのアンチウイルスソフトウェアと既定でインストールされている Microsoft Defender Antivirus のアンチウイルスで問題が起きている場合は、Microsoft Defender をアンインストールすることも検討してください。
 + [Microsoft Defender Antivirus on Windows Server 2016 and 2019](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#need-to-uninstall-microsoft-defender-antivirus)
 
 GUI から 役割と機能の削除でアンインストールすることも可能ですが、Powershell から実行すると簡単です。

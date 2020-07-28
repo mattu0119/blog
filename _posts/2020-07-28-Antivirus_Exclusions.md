@@ -7,7 +7,6 @@ tags:
  - Antivirus Exclusions
 ---
 
-#  Windows Server 2016 以降で 3rd パーティーのアンチウイルスソフトを使う
 ## Windows Defender のアンインストール
 3rd パーティーのアンチウイルスソフトウェアを利用する際は、既定でインストールされている Microsoft Defender Antivirus をアンインストールすることが推奨されています。
 + [Microsoft Defender Antivirus on Windows Server 2016 and 2019](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#need-to-uninstall-microsoft-defender-antivirus)
@@ -15,15 +14,15 @@ tags:
 GUI から 役割と機能の削除でアンインストールすることも可能ですが、Powershell から実行すると簡単です。
 + [Uninstall Microsoft Defender Antivirus using PowerShell](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#uninstall-microsoft-defender-antivirus-using-powershell)
 + Windows Defender をアンインストール
-```powershell
-Uninstall-WindowsFeature -Name Windows-Defender
-```
+    ```powershell
+    Uninstall-WindowsFeature -Name Windows-Defender
+    ```
 + Windows Defender GUI をアンインストール
-```powershell
-Uninstall-WindowsFeature -Name Windows-Defender-GUI
-```
-# Windows Server のアンチウイルス除外設定
+    ```powershell
+    Uninstall-WindowsFeature -Name Windows-Defender-GUI
+    ```
 
+# Windows Server のアンチウイルス除外設定
 ## Windows Server
 + 2016 and 2019 
     + Microsoft Defender ATP (Advanced Threat Protection) で除外設定される項目一覧

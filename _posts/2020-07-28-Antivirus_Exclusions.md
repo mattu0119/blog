@@ -9,6 +9,11 @@ tags:
 
 # Windows Server のアンチウイルス除外設定
 
+## Windows Server 2016 and 2019 
+Microsoft Defender ATP (Advanced Threat Protection) で除外設定される項目一覧
+[Configure Microsoft Defender Antivirus exclusions on Windows Server](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-server-exclusions-microsoft-defender-antivirus)
+
+
 ## Hyper-V
 [Recommended antivirus exclusions for Hyper-V hosts](https://support.microsoft.com/en-gb/help/3105657/recommended-antivirus-exclusions-for-hyper-v-hosts)
 

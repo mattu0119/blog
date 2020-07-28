@@ -63,7 +63,8 @@ google:
   search_engine_id       : 000043058857210087668:9saye4v_8em
   instant_search         : true # false (default), true
 # SEO Related
-google_site_verification :
+# <meta name="google-site-verification" content="22i_TqCHuToe8y5g16uPo8u3YggLPxUNvmpDXBoHW0E" />
+google_site_verification : 22i_TqCHuToe8y5g16uPo8u3YggLPxUNvmpDXBoHW0E
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :

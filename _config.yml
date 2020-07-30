@@ -64,7 +64,8 @@ google:
   instant_search         : true # false (default), true
 # SEO Related
 # <meta name="google-site-verification" content="22i_TqCHuToe8y5g16uPo8u3YggLPxUNvmpDXBoHW0E" />
-google_site_verification : "22i_TqCHuToe8y5g16uPo8u3YggLPxUNvmpDXBoHW0E"
+# <meta name="google-site-verification" content="ZcBwkk2ZerqCMU-TEvGMdcHo2W5CmiSBCePreKen92A" />
+google_site_verification : "ZcBwkk2ZerqCMU-TEvGMdcHo2W5CmiSBCePreKen92A"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :

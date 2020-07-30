@@ -2,7 +2,7 @@
 title: "Azure Stack HCI Ver.20H2"
 date: 2020-07-26 00:00:00 -0000
 categories: 
- - AzureStack
+ - Azure Stack HCI
 tags: 
  - HCI
 ---

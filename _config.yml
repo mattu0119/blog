@@ -119,6 +119,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: Wordpress
+      url: "https://mhiroblog.wordpress.com/"
 
 # Site Footer
 footer:
@@ -141,6 +143,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: Wordpress
+      url: "https://mhiroblog.wordpress.com/"
 
 
 # Reading Files

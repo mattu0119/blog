@@ -2,7 +2,7 @@
 title: "Powershell でポート指定の通信確認"
 date: 2020-07-30 00:00:00 -0000
 categories: 
- - Windows Sever
+ - WindowsSever
 tags: 
  - Powershell
  - TCP

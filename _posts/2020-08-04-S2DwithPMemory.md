@@ -12,12 +12,12 @@ tags:
 # リンク集
 
 1. [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem)
-    + NVDIMM ハードウェアサポート状況  
-    |Persistent Memory Technology|Windows Server 2016|Windows Server 2019|
-    |---|---|---|
-    |NVDIMM-N in persistent mode|Supported|Supported|
-    |Intel Optane™ DC Persistent Memory in App Direct Mode|Not Supported|Supported|
-    |Intel Optane™ DC Persistent Memory in Memory Mode|Supported|Supported|  
++ NVDIMM ハードウェアサポート状況  
+|Persistent Memory Technology|Windows Server 2016|Windows Server 2019|
+|---|---|---|
+|NVDIMM-N in persistent mode|Supported|Supported|
+|Intel Optane™ DC Persistent Memory in App Direct Mode|Not Supported|Supported|
+|Intel Optane™ DC Persistent Memory in Memory Mode|Supported|Supported|  
 2. Windows Server 2019 with Intel Optane DC persistent memory : Microsoft Ignite 2018
      <iframe width="560" height="315" src="https://www.youtube.com/embed/8WMXkMLJORc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 3. [Intel® Select Solutions for Microsoft Azure Stack HCI](https://builders.intel.com/docs/select-solutions-microsoft-azure-stack-hci.pdf)

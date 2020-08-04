@@ -18,7 +18,7 @@ tags:
 |---|---|---|
 |NVDIMM-N in persistent mode|Supported|Supported|
 |Intel Optane™ DC Persistent Memory in App Direct Mode|Not Supported|Supported|
-|Intel Optane™ DC Persistent Memory in Memory Mode|Supported|Supported|
+|Intel Optane™ DC Persistent Memory in Memory Mode|Supported|Supported|  
 
 1. Windows Server 2019 with Intel Optane DC persistent memory | Microsoft Ignite 2018
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8WMXkMLJORc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

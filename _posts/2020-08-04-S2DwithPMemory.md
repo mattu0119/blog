@@ -9,7 +9,7 @@ tags:
  - Persistent Memory
  - NVDIMM
 ---
-# Azure Stack HCI で Persistent Memory を利用する Tips 集
+# リンク集
 
 1. [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem)
     + NVDIMM ハードウェアサポート状況  

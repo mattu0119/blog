@@ -13,6 +13,7 @@ tags:
 
 1. [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem)
 + NVDIMM ハードウェアサポート状況  
+
 |Persistent Memory Technology|Windows Server 2016|Windows Server 2019|
 |---|---|---|
 |NVDIMM-N in persistent mode|Supported|Supported|

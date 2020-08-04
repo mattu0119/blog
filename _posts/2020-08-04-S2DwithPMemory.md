@@ -21,11 +21,11 @@ tags:
 2. Windows Server 2019 with Intel Optane DC persistent memory : Microsoft Ignite 2018
      <iframe width="560" height="315" src="https://www.youtube.com/embed/8WMXkMLJORc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 3. [Intel® Select Solutions for Microsoft Azure Stack HCI](https://builders.intel.com/docs/select-solutions-microsoft-azure-stack-hci.pdf)
-    + Memory Mode
+    + Memory Mode  
         メモリとして機能させるモード。メモリを購入するより GB 単価が下がる。また、アプリケーションも既存のまま利用できるのがメリット。
-    + App Direct Mode
+    + App Direct Mode  
         In-memory database, in-memory analytics frameworks, and ultrafast storage applications が利益をえることができる。App Direct Mode はアプリケーションや OS が対応していないと利用することができなし。
-    + Dual Mode
+    + Dual Mode  
         どちらの機能も有効にできるモード。
 4. [不揮発性メモリ Intel Optane DC Persistent Memory とは](https://pc.watch.impress.co.jp/docs/news/1177812.html)
     + Optane DC Persistent MemoryはDRAMと混在して利用する。同じメモリチャネルに混在させるときには、OptaneがよりCPUに近いスロットに、DRAMを遠いスロットに実装する必要がある。1つのCPUソケットに対して、最大6つまでのOptane DC Persistent Memoryのモジュールを装着できる。

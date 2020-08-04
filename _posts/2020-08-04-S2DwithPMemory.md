@@ -9,7 +9,7 @@ tags:
  - Persistent Memory
  - NVDIMM
 ---
-# リンク集
+# AzSHCI のリンク
 
 1. [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem)
 + NVDIMM ハードウェアサポート状況  

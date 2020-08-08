@@ -43,6 +43,8 @@ tags:
         + Windows Server 2019 Datacenter
     + Mode
         + App Direct Interleaved
++ [PowerEdge R640 NVDIMM User's guide](https://topics-cdn.dell.com/pdf/poweredge-r740_users-guide3_ja-jp.pdf)
+
 
 
 

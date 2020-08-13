@@ -20,7 +20,8 @@ tags:
 |Intel Optane™ DC Persistent Memory in App Direct Mode|Not Supported|Supported|
 |Intel Optane™ DC Persistent Memory in Memory Mode|Supported|Supported|  
 
-> [!注意]
+
+> [!Notice]
 > Intel Optane は、メモリ(揮発性) モードとアプリダイレクト(永続的) モードの両方をサポートしています。
 
 + Windows Server 2019 with Intel Optane DC persistent memory : Microsoft Ignite 2018

@@ -34,6 +34,7 @@ tags:
 + [不揮発性メモリ Intel Optane DC Persistent Memory とは](https://pc.watch.impress.co.jp/docs/news/1177812.html)
     + Optane DC Persistent MemoryはDRAMと混在して利用する。同じメモリチャネルに混在させるときには、OptaneがよりCPUに近いスロットに、DRAMを遠いスロットに実装する必要がある。1つのCPUソケットに対して、最大6つまでのOptane DC Persistent Memoryのモジュールを装着できる。
 + [Configuring persistent memory for Dell EMC Azure Stack HCI](https://infohub.delltechnologies.com/l/deployment-guide-234/configuring-persistent-memory-for-azure-stack-hci-1)
+    + 
 + [Boost Performance on Dell EMC Solutions for Microsoft Azure Stack HCI using Intel Optane Persistent Memory](https://infohub.delltechnologies.com/p/boost-performance-on-dell-emc-solutions-for-microsoft-azure-stack-hci-using-intel-optane-persistent-memory/)
 + Powershell コマンド
     + [Dell EMC NVDIMM-N Persistent Memory User Guide](https://www.dell.com/support/manuals/in/en/indhs1/poweredge-r940/nvdimm-n_ug_pub/powershell-cmdlets?guid=guid-325e2516-07ae-4b68-b696-009ba6d43ca1&lang=en-us)

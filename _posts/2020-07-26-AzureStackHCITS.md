@@ -30,7 +30,7 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 + [Step4：Create nested Azure Stack HCI cluster with Windows Admin Center](https://github.com/Azure/AzureStackHCI-EvalGuide/blob/main/nested/steps/4_AzSHCICluster.md)
 
 クラスター検証でエラーがでたというわけではなく、WAC から Azure Stack HCI ノードに対して WMI 通信ができずにクラスター検証を開始できなかったという内容のエラーです。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/1.png" class="full" width="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/1.png" class="full" width="1000">
 
 私の他にも同じ問題が発生した人がいたようで、Github の Issue にあがっていました。
 
@@ -55,23 +55,23 @@ HCI の機能に特化した新しい HCI 用の OS が Public Preview となり
 
 1. 途中終了するタイミングで、右下の [Exit] をクリックします。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/6.png" class="full" width="1000"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/6.png" class="full" width="1000"> 
 
 2. [クラスターの作成を停止しますか？] の表示で、[進捗状況をあとで保存する] にチェックを入れて、[はい] を選択します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/7.png" class="full" width="600"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/7.png" class="full" width="600"> 
 
 クラスター作成のウィザードを開始すると、 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/8.png" class="full" width="1000"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/8.png" class="full" width="1000"> 
 
 クラスター作成を再開しますか？という画面が表示されます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/9.png" class="full" width="600"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/9.png" class="full" width="600"> 
 
 [はい] をクリックすることで、クラスター検証から作業を再開することができます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/10.png" class="full" width="1000"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/10.png" class="full" width="1000"> 
 
 
 ### 2. WAC と Azure Stack HCI OS のシステムロケールを変更
@@ -85,7 +85,7 @@ Get-WinSystemLocale
 ```powershell
 Set-WinSystemLocale -SystemLocale en-us
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/2.png" class="full" width="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/2.png" class="full" width="1000">
 
 3. 設定を反映させるため再起動したあとに、設定を確認します。
 ```powershell
@@ -99,7 +99,7 @@ Get-WinSystemLocale
 Restart-Service WinRM
 ```
 リモートセッションでは実行できないので、それぞれの仮想マシンにログインして実施する必要があります。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/3.png" class="full" width="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/3.png" class="full" width="1000">
 
 3. OS を再起動します。
 ```powershell
@@ -108,10 +108,10 @@ Restart-Computer -Force
 4. WAC と Azure Stack HCI ノードすべての再起動が完了したら、再度クラスター検証を実施します。
 
 そうすると、エラーなくクラスターの検証が始まります。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/4.png" class="full" width="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/4.png" class="full" width="1000">
 
 クラスターの検証が完了すると、検証レポートをダウンロードすることもできます。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/5.png" class="full" width="1000">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/20H2/5.png" class="full" width="1000">
 
 私の環境では、CredSSPの対応をしなくてもクラスター検証のエラーを解消することができました。もし直らなかった場合は、CredSSP の対応も実施してみてください。
 Evalation Guide にしたがって、クラスターやS2Dの有効化などを進めてください！

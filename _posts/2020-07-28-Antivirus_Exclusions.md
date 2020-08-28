@@ -2,6 +2,7 @@
 title: "Windows Server のアンチウイルス推奨設定"
 date: 2020-07-28 00:00:00 -0000
 categories: 
+ - Microsoft
  - Windows Sever
 tags: 
  - Antivirus Exclusions

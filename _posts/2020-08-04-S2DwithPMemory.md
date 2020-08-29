@@ -3,8 +3,7 @@ title: "Azure Stack HCI で Persistent Memory を利用"
 date: 2020-08-04 18:00:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
- - Microsoft
- - Dell Technologies
+ - Azure Stack HCI
 tags: 
  - Azure Stack HCI
  - Persistent Memory

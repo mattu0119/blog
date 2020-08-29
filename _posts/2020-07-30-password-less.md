@@ -2,9 +2,10 @@
 title: "パスワードレスの価値と仕組み"
 date: 2020-07-30 13:00:00 -0000
 categories: 
- - AzureAD
+ - Azure AD
 tags: 
  - Passwordless
+ - Azure AD
 ---
 http://aka.ms/AzureAdWebinar
 

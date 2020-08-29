@@ -3,10 +3,10 @@ title: "Powershell でポート指定の通信確認"
 date: 2020-07-30 00:00:00 +08:00
 last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
- - Windows Sever
+ - Windows Server
 tags: 
  - Powershell
- - TCP
+ - Network
 ---
 
 # ポート番号指定での疎通確認方法

@@ -8,7 +8,6 @@ tags:
  - Azure Stack HCI
 ---
 
-# Azure Stack HCI のボリュームリサイズ
 こんにちは。Azure Stack HCI で CSV ボリュームをリサイズする方法をご紹介します。
 
 ## CSV ボリュームの拡張

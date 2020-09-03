@@ -9,10 +9,10 @@ tags:
 ---
 
 # Azure Stack HCI Ver.20H2 とは
-+ [Azure Stack HCI Overview](https://docs.microsoft.com/en-us/azure-stack/hci/overview)
++ [Azure Stack HCI Overview](https://docs.microsoft.com/en-us/azure-stack/hci/overview/?WT.mc_id=WDIT-MVP-5002708)
 
 ## Azure Friday
-+ [Introducing the next generation of Azure Stack HCI](https://azure.microsoft.com/ja-jp/resources/videos/azure-friday-introducing-the-next-generation-of-azure-stack-hci/)
++ [Introducing the next generation of Azure Stack HCI](https://azure.microsoft.com/ja-jp/resources/videos/azure-friday-introducing-the-next-generation-of-azure-stack-hci/?WT.mc_id=WDIT-MVP-5002708)
 
 ## OMIMSWAC v1.1
 + [OMIMSWAC v1.1](https://www.acuutech.com/dellemcblogpost/)

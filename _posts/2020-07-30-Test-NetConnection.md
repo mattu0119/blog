@@ -17,7 +17,7 @@ Test-NetConnection
 
 このコマンドは、Windows 8.1、Windows Server 2012R2 以降の OS では既定で利用できるコマンドです。
 
-+ [Test-NetConnection](https://docs.microsoft.com/ja-jp/powershell/module/nettcpip/Test-NetConnection?view=win10-ps)
++ [Test-NetConnection](https://docs.microsoft.com/ja-jp/powershell/module/nettcpip/Test-NetConnection?view=win10-ps/?WT.mc_id=WDIT-MVP-5002708)
 
 このコマンドでは、Ping コマンドでは確認できない項目を確認することが可能です。
 1. Ping 疎通確認

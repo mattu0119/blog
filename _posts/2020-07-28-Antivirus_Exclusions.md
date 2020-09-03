@@ -10,10 +10,10 @@ tags:
 
 ## Windows Defender のアンインストール
 3rd パーティーのアンチウイルスソフトウェアと既定でインストールされている Microsoft Defender Antivirus のアンチウイルスで問題が起きている場合は、Microsoft Defender をアンインストールすることも検討してください。
-+ [Microsoft Defender Antivirus on Windows Server 2016 and 2019](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#need-to-uninstall-microsoft-defender-antivirus)
++ [Microsoft Defender Antivirus on Windows Server 2016 and 2019](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#need-to-uninstall-microsoft-defender-antivirus/?WT.mc_id=WDIT-MVP-5002708)
 
 GUI から 役割と機能の削除でアンインストールすることも可能ですが、Powershell から実行すると簡単です。
-+ [Uninstall Microsoft Defender Antivirus using PowerShell](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#uninstall-microsoft-defender-antivirus-using-powershell)
++ [Uninstall Microsoft Defender Antivirus using PowerShell](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-on-windows-server-2016#uninstall-microsoft-defender-antivirus-using-powershell/?WT.mc_id=WDIT-MVP-5002708)
 + Windows Defender をアンインストール
     ```powershell
     Uninstall-WindowsFeature -Name Windows-Defender
@@ -27,11 +27,11 @@ GUI から 役割と機能の削除でアンインストールすることも可
 ## Windows Server
 + 2016 and 2019 
     + Microsoft Defender ATP (Advanced Threat Protection) で除外設定される項目一覧
-    + [Configure Microsoft Defender Antivirus exclusions on Windows Server](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-server-exclusions-microsoft-defender-antivirus)
+    + [Configure Microsoft Defender Antivirus exclusions on Windows Server](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-antivirus/configure-server-exclusions-microsoft-defender-antivirus/?WT.mc_id=WDIT-MVP-5002708)
 
 ## Hyper-V
 + 2019
-    + [Recommended antivirus exclusions for Hyper-V hosts](https://support.microsoft.com/en-gb/help/3105657/recommended-antivirus-exclusions-for-hyper-v-hosts)
+    + [Recommended antivirus exclusions for Hyper-V hosts](https://support.microsoft.com/en-gb/help/3105657/recommended-antivirus-exclusions-for-hyper-v-hosts//?WT.mc_id=WDIT-MVP-5002708)
 
     ### Files
     All directories that contain the following files:
@@ -81,5 +81,5 @@ GUI から 役割と機能の削除でアンインストールすることも可
 ## System Center
    ### Virtual Machine Manager
    + 2012R2
-       + [Recommended antivirus exclusions for System Center Virtual Machine Manager and managed hosts](https://support.microsoft.com/en-us/help/3119208/recommended-antivirus-exclusions-for-system-center-virtual-machine-man)
+       + [Recommended antivirus exclusions for System Center Virtual Machine Manager and managed hosts](https://support.microsoft.com/en-us/help/3119208/recommended-antivirus-exclusions-for-system-center-virtual-machine-man/?WT.mc_id=WDIT-MVP-5002708)
 

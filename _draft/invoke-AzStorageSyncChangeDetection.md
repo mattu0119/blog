@@ -17,9 +17,24 @@ Get-AzStorageSyncCloudEndpoint -ResourceGroupName "storage-rg" `
 -StorageSyncServiceName publicsync1 `
 -SyncGroupName publicsync1
 
-## 差分チェックジョブの実行
+## 差分チェックジョブの実行 (ファイル、フォルダ単位) 
 Invoke-AzStorageSyncChangeDetection -ResourceGroupName "storage-rg" `
 -StorageSyncServiceName "publicsync1" `
 -SyncGroupName "publicsync1" `
 -CloudEndpointName "ff53158f-f744-4e4e-a3d7-bba5d1730fcb" `
 -Path "00_Everyone"
+
+## 差分チェックジョブの実行 (ファイル配下すべて指定)
+Invoke-AzStorageSyncChangeDetection -ResourceGroupName "storage-rg" `
+-StorageSyncServiceName "publicsync1" `
+-SyncGroupName "publicsync1" `
+-CloudEndpointName "ff53158f-f744-4e4e-a3d7-bba5d1730fcb" `
+-DirectoryPath "00_Everyone" `
+-Recursive
+
+Invoke-AzStorageSyncChangeDetection -ResourceGroupName "storage-rg" `
+-StorageSyncServiceName "publicsync1" `
+-SyncGroupName "publicsync1" `
+-CloudEndpointName "ff53158f-f744-4e4e-a3d7-bba5d1730fcb" `
+-DirectoryPath "10_sales" `
+-Recursive

@@ -14,7 +14,7 @@ tags:
 ボリュームの拡張は簡単に実行できます。
 順番としては、S2D の仮想ディスクを拡張した後に、パーティションを拡張します。
 ストレージ階層を利用している場合は、手順が少し変わりますので、下記のご参照をお願いします。
-+ [Extending volumes in Storage Spaces Direct](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/resize-volumes)
++ [Extending volumes in Storage Spaces Direct](https://docs.microsoft.com/en-us/windows-server/storage/storage-spaces/resize-volumes/?WT.mc_id=WDIT-MVP-5002708)
 
 ### S2D 仮想ディスクの拡張
 まず、仮想ディスクの拡張をします。

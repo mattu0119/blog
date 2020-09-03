@@ -11,7 +11,7 @@ tags:
 ---
 # AzSHCI のリンク
 
-+ [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem)
++ [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem/?WT.mc_id=WDIT-MVP-5002708)
     + NVDIMM ハードウェアサポート状況  
 
 |Persistent Memory Technology|Windows Server 2016|Windows Server 2019|

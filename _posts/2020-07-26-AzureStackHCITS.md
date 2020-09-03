@@ -11,12 +11,12 @@ tags:
 
 ## Azure Stack HCI 20H2 について
 先週開催された Micosoft Inspire 2020 で、Azure Stack HCI Version 20H2 が発表されました。
-+ [ハイブリッド クラウドを可能にする次世代の Azure Stack HCI を発表](https://azure.microsoft.com/ja-jp/blog/deliver-hybrid-cloud-capabilities-with-the-next-generation-of-azure-stack-hci/?fbclid=IwAR17txajhgSvuxmB_Pb9WPh0w21BS7VsrpmVX6Pyzh64njCcud5emy36aVw)
++ [ハイブリッド クラウドを可能にする次世代の Azure Stack HCI を発表](https://azure.microsoft.com/ja-jp/blog/deliver-hybrid-cloud-capabilities-with-the-next-generation-of-azure-stack-hci/?fbclid=IwAR17txajhgSvuxmB_Pb9WPh0w21BS7VsrpmVX6Pyzh64njCcud5emy36aVw/?WT.mc_id=WDIT-MVP-5002708)
 
 HCI の機能に特化した新しい HCI 用の OS が Public Preview となりました。
 
 また、同じタイミングで Windows Admin Center は **Version 2007** がリリースされました。
-+ [Windows Admin Center version 2007 is now generally available!](https://techcommunity.microsoft.com/t5/windows-admin-center-blog/windows-admin-center-version-2007-is-now-generally-available/ba-p/1536215)
++ [Windows Admin Center version 2007 is now generally available!](https://techcommunity.microsoft.com/t5/windows-admin-center-blog/windows-admin-center-version-2007-is-now-generally-available/ba-p/1536215/?WT.mc_id=WDIT-MVP-5002708)
 
 新しい Azure Stack HCI と Windows Admin Center は下記の評価ガイドのシナリオを参考に効率よく検証することが可能です。
 

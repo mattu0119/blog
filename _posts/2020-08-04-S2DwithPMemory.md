@@ -9,7 +9,13 @@ tags:
  - Persistent Memory
  - NVDIMM
 ---
-# AzSHCI のリンク
+## Hyper-V で NVDIMM
+
++ [Cmdlets for configuring persistent memory devices for Hyper-V VMs](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/persistent-memory-cmdlets/?WT.mc_id=WDIT-MVP-500270/)
+
+
+## AzSHCI で NVDIMM 
+AzSHCI で NVDIMM の技術情報リンクです。
 
 + [永続的なメモリの理解とデプロイ](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-spaces/deploy-pmem/?WT.mc_id=WDIT-MVP-5002708)
     + NVDIMM ハードウェアサポート状況  

@@ -18,12 +18,9 @@ tags:
 [Microsoft Azure Virtual Training Day: Migrating Server Infrastructure](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?simulive=y&eventid=2506839&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=BCE0DB59439E92DAA35FE48F30C3DB7A&text_language_id=ja&playerwidth=1000&playerheight=650&overwritelobby=y&newConsole=true&nxChe=true&eventuserid=347146125&contenttype=A&mediametricsessionid=296858159&mediametricid=3530966&usercd=347146125&mode=launch#)
 
 こちらの英語のトレーニングが情報元になっているということです。
-+ aka.ms/MSI10
-    + MSI10: Windows Server 2019 への移行
-+ aka.ms/MSI20
-    + MSI20：クラウドテクノロジの統合
-+ aka.ms/MSI30
-    + MSI30：IaaS ワークロードの Azure への移行
++ [MSI10: Windows Server 2019 への移行](https://aka.ms/MSI10)
++ [MSI20：クラウドテクノロジの統合](aka.ms/MSI20)
++ [MSI30：IaaS ワークロードの Azure への移行](aka.ms/MSI30)
 
 本投稿は、MSI10 の内容を簡単にまとめたものになります。
 

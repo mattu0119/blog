@@ -1,12 +1,30 @@
 ---
-title: "MSI10：Azure Migration について"
+title: "Migrating Server Infrastructure ウェビナー"
 date: 2020-09-05 13:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Windows Server
+ - Azure
 tags: 
  - Migration
+ - Management
 ---
+
+# Migrating Server Infrastructure ウェビナー
+いつまで公開されているかわかりませんが、こちらからトレーニングを参照できます。
+それぞれのトレーニングは 45分程です。
+
+[Microsoft Azure Virtual Training Day: Migrating Server Infrastructure](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?simulive=y&eventid=2506839&sessionid=1&username=&partnerref=&format=fhvideo1&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=BCE0DB59439E92DAA35FE48F30C3DB7A&text_language_id=ja&playerwidth=1000&playerheight=650&overwritelobby=y&newConsole=true&nxChe=true&eventuserid=347146125&contenttype=A&mediametricsessionid=296858159&mediametricid=3530966&usercd=347146125&mode=launch#)
+
+こちらの英語のトレーニングが情報元になっているということです。
++ aka.ms/MSI10
+    + MSI10: Windows Server 2019 への移行
++ aka.ms/MSI20
+    + MSI20：クラウドテクノロジの統合
++ aka.ms/MSI30
+    + MSI30：IaaS ワークロードの Azure への移行
+
+本投稿は、MSI10 の内容を簡単にまとめたものになります。
 
 # Windows Server 2019 へ移行 のトレーニング
 aka.ms/MSI10
@@ -57,5 +75,5 @@ https://aka.ms/DCShieldedVM
 WAC を利用して、GUI ベースでファイルサーバーの移行をできる。
    + [Storage Migration Service を使用してサーバーを移行する](https://docs.microsoft.com/ja-jp/windows-server/storage/storage-migration-service/migrate-data)
 
-## Azure 管理のトレーニングは MSI20 です。
-aka.ms/MSI20
+以上となります。
+

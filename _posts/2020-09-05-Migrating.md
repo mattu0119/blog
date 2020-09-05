@@ -11,6 +11,8 @@ tags:
 ---
 
 # Migrating Server Infrastructure ウェビナー
+ハッシュタグ：#MicrosoftAzureTrainingDay
+
 いつまで公開されているかわかりませんが、こちらからトレーニングを参照できます。
 それぞれのトレーニングは 45分程です。
 

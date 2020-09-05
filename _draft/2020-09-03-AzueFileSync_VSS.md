@@ -21,7 +21,6 @@ VSS を利用すると、取得時点のファイルのスナップショット�
 
 ## VSS のサポート状況
 Azure File Sync エージェント バージョン9 以降から、Azure File Sync を利用する環境で VSS がサポートされるようになりました。
-Azure 
 
 
 ## Storage Sync Management Server のコマンド

@@ -59,8 +59,11 @@ Get-ADComputer -filter {OperationgSystem -Like "*2008*"} -properties * | ft Name
 https://aka.ms/MigrateAD
 
 ### AD の仮想化には Shielded VM
-承認された Hyper-V ホストのみで稼働することができる。承認されていないホストに仮想マシンデータを移動しても起動できない、VHDファイル内のデータも見れないセキュリティの機能。
-https://aka.ms/DCShieldedVM
++ 承認された Hyper-V ホストのみで稼働することができる。
++ 承認されていないホストに仮想マシンデータを移動しても起動できない、VHDファイル内のデータも見れないセキュリティの機能。  
+詳細はこちら。  
+[https://aka.ms/DCShieldedVM](https://aka.ms/DCShieldedVM)
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzureMigration/MSI10/2.png" class="full" width="1000">
 
 ## ストレージマイグレーションサービス (記憶域の移行サービス)

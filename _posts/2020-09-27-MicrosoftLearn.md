@@ -19,8 +19,7 @@ tags:
 1. [Azure Monitor ログを使用して Azure インフラストラクチャを分析する](https://docs.microsoft.com/ja-jp/learn/modules/analyze-infrastructure-with-azure-monitor-logs/)
 
 
-
-+ [Control Azure spending and manage bills with Azure Cost Management + Billing](https://docs.microsoft.com/en-us/learn/paths/control-spending-manage-bills/?WT.mc_id=ignite2020_collections)
-
-+ [Azure Cost Management](https://www.youtube.com/channel/UCWx1g_U9s40EMq8Lw1gZ_pw/featured)
+## Billing and Cost Management
+1. [Control Azure spending and manage bills with Azure Cost Management + Billing](https://docs.microsoft.com/en-us/learn/paths/control-spending-manage-bills/?WT.mc_id=ignite2020_collections)
+1. [Azure Cost Management](https://www.youtube.com/channel/UCWx1g_U9s40EMq8Lw1gZ_pw/featured)
 

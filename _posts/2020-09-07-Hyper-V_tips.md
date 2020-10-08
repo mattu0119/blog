@@ -14,3 +14,4 @@ tags:
 
 + [Hyper-V Replica Step-By-Step: Virtual Machine Replication](https://social.technet.microsoft.com/wiki/contents/articles/36705.hyper-v-replica-step-by-step-virtual-machine-replication.aspx)
 
++ [Windows Server バックアップによる Hyper-V Host Component のバックアップと復元について](https://docs.microsoft.com/en-us/archive/blogs/askcorejp/windows-server-hyper-v-host-component)

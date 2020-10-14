@@ -7,7 +7,6 @@ categories:
  - Active Directory
 ---
 
-## SCOM で Active Directory を監視
 SCOM エージェントをインストールして Active Directory の監視を行う場合、エージェントのインストールだけでは Active Directory の監視をできるようなりません。  
 エージェントをインストールしたタイミングでは問題なくみえますが、少しすると「状態」が <font color="DarkGreen">**グリーン**</font> から<font color="Gray">**グレーアウト**</font>の状態となります。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/SCOM/ADMonitoring/1.png" class="full" width="600">

@@ -23,8 +23,9 @@ SCOM のトラブルシューティングにも対処内容が紹介されてい
 HSLockdown.exe は Monitoring エージェントをインストールしたフォルダにあります。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/SCOM/ADMonitoring/2.png" class="full" width="600">
  
-HSLockdown で 許可 または 拒否されているアカウントは、下記のコマンドで確認できます。
-```powershe ll
+HSLockdown で 許可 または 拒否されているアカウントは、下記のコマンドで確認できます。  
+
+```powershell
 cd 'C:\Program Files\Microsoft Monitoring Agent\Agent\'
 PS C:\Program Files\Microsoft Monitoring Agent\Agent> .\HSLockdown.exe /L
 ```
@@ -36,14 +37,14 @@ PS C:\Program Files\Microsoft Monitoring Agent\Agent> .\HSLockdown.exe /L
 
 
 ## Active Directory を監視できるようにする
-Active Directory を監視するには、拒否状態になっている `NT Authority\System` アカウントを削除します。
+Active Directory を監視するには、拒否状態になっている **NT Authority\System** アカウントを削除します。
 
 ```powershell
 .\hslockdown.exe "Management_Group _Name" /R "NT AUTHORITY\SYSTEM"
 ```
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/SCOM/ADMonitoring/4.png" class="full" width="600">
 
-`NT Authority\system` アカウントが削除されたことを確認します。
+**NT Authority\system** アカウントが削除されたことを確認します。
 ```powershell
 .\HSLockdown.exe /L
 ```

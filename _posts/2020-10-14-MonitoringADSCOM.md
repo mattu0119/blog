@@ -17,7 +17,7 @@ SCOM のトラブルシューティングにも対処内容が紹介されてい
 
 + [Operations Manager のヘルス サービス ロックダウン ツールを使用したアクセス制御](https://docs.microsoft.com/ja-jp/previous-versions/system-center/system-center-2012-R2/hh212737(v=sc.12)?redirectedfrom=MSDN\?WT.mc_id=WDIT-MVP-500270\)
 
-そのため、Active Directory にインストールした Monitoring エージェントで、`NT Authority\System` アカウントを拒否設定を削除することで、問題なく Active Direcotry を監視できる状態になります。    
+そのため、Active Directory にインストールした Monitoring エージェントで、**NT Authority\System** アカウントを拒否設定を削除することで、問題なく Active Direcotry を監視できる状態になります。    
 
 ## Active Directory サーバーで HSLockdown.exe で設定値を確認
 HSLockdown.exe は Monitoring エージェントをインストールしたフォルダにあります。  

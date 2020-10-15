@@ -40,8 +40,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName smb1protocol
 インストール後、再起動が必要です。
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/WindowsServer/1-2003/5.png" class="full" width="600">
 
-すべての Active Directory で SMBv1 をインストールしたら、Windows Server 2003 にドメインユーザーにリモートデスクトップしたり、ドメイン参加を試してみてください。問題なく成功するはずです。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/WindowsServer/1-2003/6.png" class="full" width="600">
+すべての Active Directory で SMBv1 をインストールしたら、Windows Server 2003 にドメインユーザーにリモートデスクトップしたり、ドメイン参加を試してみてください。問題なく成功するはずです。  
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/WindowsServer/1-2003/6.png" class="full" width="400">
+
+SMBv1 はレガシープロトコルで、脆弱性を利用したランサムウェアによる被害も報告されています。SMB1 は既定で無効になったプロトコルでもあるため、利用は推奨されていません。
+[Stop using SMB1](https://techcommunity.microsoft.com/t5/storage-at-microsoft/stop-using-smb1/ba-p/425858)
+
+本当に必要でない場合に限り、SMB1 を有効にして利用いただければと思います。
 
 以上となります。
 

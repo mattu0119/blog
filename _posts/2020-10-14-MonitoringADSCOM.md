@@ -60,9 +60,3 @@ net start healthservice
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/SCOM/ADMonitoring/7.png" class="full" width="600">
 
 以上となります。
-
-
-
-
-
-

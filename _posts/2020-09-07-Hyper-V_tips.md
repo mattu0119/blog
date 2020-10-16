@@ -29,3 +29,10 @@ Primary|Size of tracking log files > 50% of total VHD size for a VM|Network outa
 |Primary|Tracking log file is not closed gracefully|Host crash with primary VM running. Applicable to VMs in a cluster also.|
 |Primary|Reverting the volume to an older point in timeReverting the VM to an older snapshot|Volume/snapshot backup and restore|
 |Secondary|Out-of-sequence or Invalid log file is applied|Restoring a backed-up copy of the Replica VM|
+
+
++ [Remove-VMSnapshot](https://docs.microsoft.com/en-us/powershell/module/hyper-v/remove-vmsnapshot?view=win10-ps)
+BE などバックアップに失敗して Snapshot 残ってしまったときに実施。
+```powershell
+Get-VM <VM名> | Remove-VMSnapshot
+```

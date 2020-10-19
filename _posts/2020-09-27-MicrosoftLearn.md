@@ -23,3 +23,7 @@ tags:
 1. [Control Azure spending and manage bills with Azure Cost Management + Billing](https://docs.microsoft.com/en-us/learn/paths/control-spending-manage-bills/?WT.mc_id=ignite2020_collections)
 1. [Azure Cost Management](https://www.youtube.com/channel/UCWx1g_U9s40EMq8Lw1gZ_pw/featured)
 
+## AZ303
+1. [ハブとスポークの Azure 仮想ネットワーク アーキテクチャを使用して、コア サービスを一元化する](https://docs.microsoft.com/ja-jp/learn/modules/hub-and-spoke-network-architecture/)
+1. [ルートを使用して Azure デプロイでのトラフィック フローを管理および制御する](https://docs.microsoft.com/ja-jp/learn/modules/control-network-traffic-flow-with-routes/)
+1. [仮想マシン スケール セットを使用してスケーラブルなアプリケーションを構築する](https://docs.microsoft.com/ja-jp/learn/modules/build-app-with-scale-sets/)

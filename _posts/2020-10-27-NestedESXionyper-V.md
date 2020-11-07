@@ -16,7 +16,8 @@ Nested Hyper-V on ESXi の記事は多くあるのですが、逆はあまりな
 1. PowerCLI のインストール  
 ESXi-Customizer-PS を利用するには、PowerCLI が必要になります。PowerCLI は、Powershell を利用して vSphere 環境を管理するツールです。  
 PowerCLI のインストール後、OS の再起動を実施してください。  
-下記のように `Get-VM` など Hyper-V と同じコマンドもありますので、Hyper-V ホスト以外にインストールすることをおすすめします。  
+下記のように `Get-VM` など Hyper-V と同じコマンドもありますので、Hyper-V ホスト以外にインストールすることをおすすめします。 
+
 ```powershell
 PS C:\Users\Administrator> Get-Command get-vm*
 
@@ -55,6 +56,7 @@ Cmdlet          Get-VMQuestion                                     6.0.0.0    VM
 Cmdlet          Get-VMResourceConfiguration                        6.0.0.0    VMware.VimAutomation.Core
 Cmdlet          Get-VMStartPolicy                                  6.0.0.0    VMware.VimAutomation.Core
 ```
+
 2. ESXi-Customizer-PS ツールのダウンロード
 Hyper-V の仮想マシンで ESXi を Neted で利用する場合、Net-Tulip というネットワークドライバーをESXi にインストールする必要があります。  
 Net-Tulip をインストールした カスタム ESXi インストール ISO ファイルを作成するには、ESXi-Customizer-PS というツールを使います。最新のバージョンは Github で公開されていますので、任意のフォルダにダウンロードします。  

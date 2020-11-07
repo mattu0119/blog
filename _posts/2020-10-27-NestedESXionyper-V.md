@@ -130,11 +130,11 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/6.png" class="full" width="600">
 
 6. 下記のコマンドを実行します。
-`ignoreHeadless=TRUE`
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/7.png" class="full" width="600">
-このコマンドを実行すると、ESXi のインストールが開始されます。  
-実行しなかった場合は、OS をインストールすることができませんので注意してください。  
-この `Relocating modules and starting up the kernel...` から画面が遷移しない状態となります。  
+ `ignoreHeadless=TRUE`
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/7.png" class="full" width="600">
+ このコマンドを実行すると、ESXi のインストールが開始されます。  
+ 実行しなかった場合は、OS をインストールすることができませんので注意してください。  
+ この `Relocating modules and starting up the kernel...` から画面が遷移しない状態となります。  
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/8.png" class="full" width="600">
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/9.png" class="full" width="600">
@@ -156,8 +156,8 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/18.png" class="full" width="600">
 
-7. OS インストールが完了後の再起動時に、再度コマンドを入れる必要があります。
-OS が再起動した直後に `Shift + O` を押します。すると、コマンドラインを入力できるようになります。
+7. OS インストールが完了後の再起動時に、再度コマンドを入れる必要があります。  
+ OS が再起動した直後に `Shift + O` を押します。すると、コマンドラインを入力できるようになります。
 そこで下記のコマンドを実行します。
 `ignireHeadless=TRUE`
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/19.png" class="full" width="600">
@@ -179,12 +179,12 @@ esxcfg-advcfg --set-kernel "TRUE" ignoreHeadless
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/24.png" class="full" width="600">
 
-10. コマンドを実行します。
-```powershell
-esxcfg-advcfg --set-kernel "TRUE" ignoreHeadless
-```
+10. コマンドを実行します。  
+ ```powershell
+ esxcfg-advcfg --set-kernel "TRUE" ignoreHeadless
+ ```
 
-これで再起動のたびにコマンドを実行する必要がなくなります。
+ これで再起動のたびにコマンドを実行する必要がなくなります。
 
 11. `Alt ＋ F2` を押して、ESX のダイレクトコンソールに戻ります。
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/25.png" class="full" width="600">

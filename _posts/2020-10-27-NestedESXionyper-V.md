@@ -112,13 +112,10 @@ ESXi-Customizer-PS -help
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">  
 
 2. Nested の有効化
-仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。  
+仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。
+また、つぎに、レガシーネットワークアダプターの MAC Address Spoofing を有効にします。  
 ```powershell
 Set-VMProcessor -VMName esxi55 -ExposeVirtualizationExtensions $True
-```  
-つぎに、レガシーネットワークアダプターの MAC Address Spoofing を有効にします。  
-
-```powershell
 Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 ```
 これで Nested 仮想マシンの準備は完了です。

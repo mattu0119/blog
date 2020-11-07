@@ -134,28 +134,27 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/7.png" class="full" width="600">
 このコマンドを実行すると、ESXi のインストールが開始されます。  
 実行しなかった場合は、OS をインストールすることができませんので注意してください。  
-この `Relocating modules and starting up the kernel...` から画面が遷移しない状態となります。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/8.png" class="full" width="600">
+この `Relocating modules and starting up the kernel...` から画面が遷移しない状態となります。  
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/8.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/9.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/9.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/10.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/10.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/11.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/11.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/12.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/12.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/13.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/13.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/14.png" class="full" width="600">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/14.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/16.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/16.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/17.png" class="full" width="600">
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/17.png" class="full" width="600">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/18.png" class="full" width="600">
-
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/18.png" class="full" width="600">
 
 7. OS インストールが完了後の再起動時に、再度コマンドを入れる必要があります。
 OS が再起動した直後に `Shift + O` を押します。すると、コマンドラインを入力できるようになります。

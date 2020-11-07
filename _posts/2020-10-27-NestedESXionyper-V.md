@@ -13,7 +13,7 @@ Nested Hyper-V on ESXi の記事は多くあるのですが、逆はあまりな
 
 
 ## 1. カスタマイズ ESXi インストールメディアの作成
-1. PowerCLI のインストール
+1. PowerCLI のインストール  
 ESXi-Customizer-PS を利用するには、PowerCLI が必要になります。PowerCLI は、Powershell を利用して vSphere 環境を管理するツールです。  
 PowerCLI のインストール後、OS の再起動を実施してください。  
 下記のように `Get-VM` など Hyper-V と同じコマンドもありますので、Hyper-V ホスト以外にインストールすることをおすすめします。  
@@ -73,22 +73,20 @@ cd .\ESXi-Customizer-PS-master\
 3. カスタマイズ ESXi インストール ISO の作成
 ESXi-Customizer-PS を利用して、カスタマイズ ISO ファイルを作成します。  
 ESXi-Customizer-PS の使い方はこちらのブログサイトに詳細説明があります。  
-+ [ESXi-Customizer-PS](https://www.v-front.de/p/esxi-customizer-ps.html)
-
-こちらのコマンドを実行することで、今回作成したい ISO を作成できます。  
++ [ESXi-Customizer-PS](https://www.v-front.de/p/esxi-customizer-ps.html)  
+こちらのコマンドを実行することで、今回作成したい ISO を作成できます。   
 ```powershell
 # カスタマイズ ISO の作成
 ESXi-Customizer-PS.ps1 -v55 -vft -load net-tulip
-```
-`-v55` というのは ESXi 5.5 バージョンを指定しています。    
-`-v60` の場合は、 ESXi 6.0 になりますので、利用したいバージョンを指定してください。
+```  
+`-v55` というのは ESXi 5.5 バージョンを指定しています。     
+`-v60` の場合は、 ESXi 6.0 になりますので、利用したいバージョンを指定してください。 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/1.png" class="full" width="600">  
 
-また、`-load` で net-tulip を指定することで、net-tulip をインストールした ESXi イメージになります。    
-コマンドを実行したカレントディレクトリに、カスタマイズした ISO ファイルが作成されます。  
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/3.png" class="full" width="600">  
-
-ESXi-Customizer-PS のヘルプを確認するにはこちらのコマンドです。  
+また、`-load` で net-tulip を指定することで、net-tulip をインストールした ESXi イメージになります。     
+コマンドを実行したカレントディレクトリに、カスタマイズした ISO ファイルが作成されます。   
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/3.png" class="full" width="600">   
+ESXi-Customizer-PS のヘルプを確認するにはこちらのコマンドです。   
 ```powershell
 ESXi-Customizer-PS -help
 ```
@@ -107,17 +105,16 @@ ESXi-Customizer-PS -help
 |メモリ|4GB 以上|
 |ネットワークアダプタ|レガシーネットワークアダプター|
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/4.png" class="full" width="600">
-
-コア数が要件に満たない場合は、インストール時にエラーとなりますので気を付けてください。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/4.png" class="full" width="600">  
+コア数が要件に満たない場合は、インストール時にエラーとなりますので気を付けてください。  
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">  
 
 2. Nested の有効化
-仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。 
+仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。  
 ```powershell
 Set-VMProcessor -VMName esxi55 -ExposeVirtualizationExtensions $True
-```
-つぎに、レガシーネットワークアダプターの MAC Address Spoofing を有効にします。
+```  
+つぎに、レガシーネットワークアダプターの MAC Address Spoofing を有効にします。  
 
 ```powershell
 Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On

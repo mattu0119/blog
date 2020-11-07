@@ -97,7 +97,7 @@ ESXi-Customizer-PS -help
 ## 2. カスタマイズした ISO ファイルから ESXi をインストール
 仮想マシンを作成して、ISO から ESXi をインストールします。
 
-1. 仮想マシンの作成
+1. 仮想マシンの作成  
  仮想マシンは 第1世代で作成する必要があります。また、CSP は 4コア以上に設定する必要があります。
 
  | 項目| 設定値|
@@ -111,7 +111,7 @@ ESXi-Customizer-PS -help
  コア数が要件に満たない場合は、インストール時にエラーとなりますので気を付けてください。  
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">  
 
-2. Nested の有効化
+2. Nested の有効化  
 仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。
 また、つぎに、レガシーネットワークアダプターの MAC Address Spoofing を有効にします。  
 ```powershell
@@ -120,16 +120,16 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 ```
 これで Nested 仮想マシンの準備は完了です。
 
-3. ESXi のインストール
+3. ESXi のインストール  
 作成した仮想マシンに ESXi をインストールします。
 
-4. ESXi-Customizer-PS で作成した ISO を仮想マシンにマウントし、仮想マシンを起動します。
+4. ESXi-Customizer-PS で作成した ISO を仮想マシンにマウントし、仮想マシンを起動します。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/5.png" class="full" width="600">
 
-5. ISO メディアで Boot した後、`Tab` キーを押します。
+5. ISO メディアで Boot した後、`Tab` キーを押します。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/6.png" class="full" width="600">
 
-6. 下記のコマンドを実行します。
+6. 下記のコマンドを実行します。  
  `ignoreHeadless=TRUE`
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/7.png" class="full" width="600">
  このコマンドを実行すると、ESXi のインストールが開始されます。  
@@ -164,7 +164,7 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/20.png" class="full" width="600">
 
-8. OS 起動後、ESX Shell を有効化します。
+8. OS 起動後、ESX Shell を有効化します。  
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/21.png" class="full" width="600">
 
@@ -172,7 +172,7 @@ Set-VMNetworkAdapter -VMName esx55 -MacAddressSpoofing On
 
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/23.png" class="full" width="600">
 
-9. `Alt + F1` を押し、ESX Shell に Root ユーザーでログインし、下記のコマンドを実行します。
+9. `Alt + F1` を押し、ESX Shell に Root ユーザーでログインし、下記のコマンドを実行します。  
 ```powershell
 esxcfg-advcfg --set-kernel "TRUE" ignoreHeadless
 ```
@@ -186,10 +186,10 @@ esxcfg-advcfg --set-kernel "TRUE" ignoreHeadless
 
  これで再起動のたびにコマンドを実行する必要がなくなります。
 
-11. `Alt ＋ F2` を押して、ESX のダイレクトコンソールに戻ります。
+11. `Alt ＋ F2` を押して、ESX のダイレクトコンソールに戻ります。  
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/25.png" class="full" width="600">
 
-これで Nested ESXi の設定は完了です。
+これで Nested ESXi の設定は完了です。  
 このあとは、必要な設定を実施して vCenter に登録して動作確認をしてみてください！
 
 

@@ -98,18 +98,18 @@ ESXi-Customizer-PS -help
 仮想マシンを作成して、ISO から ESXi をインストールします。
 
 1. 仮想マシンの作成
-仮想マシンは 第1世代で作成する必要があります。また、CSP は 4コア以上に設定する必要があります。
+ 仮想マシンは 第1世代で作成する必要があります。また、CSP は 4コア以上に設定する必要があります。
 
-| 項目| 設定値|
-|----|----|
-|仮想マシン世代|第1世代|
-|CPU|4コア以上|
-|メモリ|4GB 以上|
-|ネットワークアダプタ|レガシーネットワークアダプター|
+ | 項目| 設定値|
+ |----|----|
+ |仮想マシン世代|第1世代|
+ |CPU|4コア以上|
+ |メモリ|4GB 以上|
+ |ネットワークアダプタ|レガシーネットワークアダプター|
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/4.png" class="full" width="600">  
-コア数が要件に満たない場合は、インストール時にエラーとなりますので気を付けてください。  
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">  
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/4.png" class="full" width="600">  
+ コア数が要件に満たない場合は、インストール時にエラーとなりますので気を付けてください。  
+ <img src="{{ site.url }}{{ site.baseurl }}/assets/images/NestedESXi/Customizer/15.png" class="full" width="600">  
 
 2. Nested の有効化
 仮想マシンを作成したら、下記コマンドを実行して CPU 仮想化を有効にします。`-VMname` の値は適宜修正してください。

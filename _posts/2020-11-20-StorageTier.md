@@ -50,7 +50,7 @@ SSD と HDD でどれくらい容量を消費したかは、こちらで確認�
 ```powershell
 Get-StorageTier
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/4.png" class="full" width="600"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/4.png" class="full" width="800"> 
 
 ## まとめ
 検証環境などで利用する場合、容量をなるべく多く確保したいですよね。既定で S2D を有効化すると、キャッシュ構成になりますので、`-CacheState Disabled` を追加して階層化ストレージを利用することも検討してみてください！

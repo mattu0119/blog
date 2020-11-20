@@ -35,14 +35,14 @@ SSD 4本 をキャッシュとした構成では、2.3TB のストレージプ�
 Enable-ClusterS2D -CacheState Disabled
 ```
 SSD と HDD すべてのディスクをキャパシティとして利用できるため、ストレージプールは 3.2TB となります。だいたい 1TB ほどのキャパシティが増えました。
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/1.png" class="full" width="600"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/5.png" class="full" width="600"> 
 
 
 ストレージ階層の仮想ディスクを作成するにはこちらのコマンドを実行する必要があります。
 ```powershell
 New-Volume -FriendlyName "Volume1" -FileSystem CSVFS_ReFS -StoragePoolFriendlyName S2D* -StorageTierFriendlyNames Performance, Capacity -StorageTierSizes 500GB,1000GB -ResiliencySettingName mirror -PhysicalDiskRedundancy 1
 ```
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/3.png" class="full" width="600"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/StorageTier/6.png" class="full" width="600"> 
 
 このコマンドで、SSD の高速階層は 500GB、HDDの低速階層は 1TB、合計1.5TB のストレージが構成されたことがわかります。
 

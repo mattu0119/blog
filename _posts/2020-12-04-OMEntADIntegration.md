@@ -11,6 +11,7 @@ Dell ハードウェア監視ソフトウェアの OpenManage Enterprise と Act
 今回は、OMEnt と AD を連携後に OMEnt に ADユーザーをインポートし、AD ユーザーで OMEnt へ管理者としてログインする方法をご紹介します。
 
 ## AD 連携の条件
+OMEnt と AD を連携する場合、以下の環境が必要です。
 * Active Directory で LDAPS の利用が必要
 * LDAPS の利用に証明書が必要
 * OpenManage Enterprise にアクセスさせたいユーザーを AD のセキュリティグループに追加

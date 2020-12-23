@@ -1,6 +1,7 @@
 ---
 title: "Hyper-V 関連のアンチウイルス推奨設定"
 date: 2020-07-28 00:00:00 -0000
+last_modified_at: 2020-12-23 11:00:00 +08:00
 categories: 
  - Windows Server
 tags: 

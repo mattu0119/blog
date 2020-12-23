@@ -1,5 +1,5 @@
 ---
-title: "Windows Server のアンチウイルス推奨設定"
+title: "Hyper-V 関連のアンチウイルス推奨設定"
 date: 2020-07-28 00:00:00 -0000
 categories: 
  - Windows Server
@@ -7,6 +7,11 @@ tags:
  - Antivirus Exclusions
  - Windows Server
 ---
+
+# はじめに
+Windows Server を利用する際に注意すべきアンチウイルスの除外設定についてまとめました。
+本投稿では Hyper-V や SCVMM の除外設定しか記載していないですが、TechNet に Microsoft Anti-Virus Exclusion List をまとめたページがありますので、利用する製品の除外設定を確認したい場合に参照してください！
+* [Microsoft Anti-Virus Exclusion List](https://social.technet.microsoft.com/wiki/contents/articles/953.microsoft-anti-virus-exclusion-list.aspx)
 
 ## Windows Defender のアンインストール
 3rd パーティーのアンチウイルスソフトウェアと既定でインストールされている Microsoft Defender Antivirus のアンチウイルスで問題が起きている場合は、Microsoft Defender をアンインストールすることも検討してください。

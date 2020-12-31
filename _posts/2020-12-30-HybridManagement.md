@@ -1,9 +1,9 @@
 ---
 title: "Azure Stack HCI のメモ"
 date: 2020-12-30 20:30:00 +08:00
-#last_modified_at: 2020-12-16 09:00:00 +08:00
+last_modified_at: 2020-12-31 15:00:00 +08:00
 categories: 
- - Active Security
+ - Azure Stack HCI
 ---
 
 + [Azure Hybrid Operations and Management Overview](https://myignite.microsoft.com/sessions/a8e1be7f-5265-414d-b53c-aa98d02d7966)

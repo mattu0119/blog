@@ -108,8 +108,9 @@ Registration Name コマンド発行後に RegistrationName を指定できま�
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/2.png" class="full" width="600">
 
 ## Remove-AzResourceGroup コマンドでエラーになる
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/3.png" class="full" width="600">
-ロックの設定値が残っていることで、リソースグループを削除できない状況になっているようです。 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/3.png" class="full" width="600">  
+
+ロックの設定値が残っていることで、リソースグループを削除できない状況になっているようです。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/4.png" class="full" width="600">
 
 Azure ポータルから azurestack リソースグループに移動し、ロックを削除するこで、コマンドからリソースグループの削除が可能になります。  

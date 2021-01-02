@@ -117,7 +117,7 @@ Azure ポータルから azurestack リソースグループに移動し、ロ�
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/5.png" class="full" width="600">
 
 # Azure AD に Application 登録された Azure Stack Hub オブジェクトの削除
-何度も ASDK をインストールすると、Azure AD にアプリケーション登録されたオブジェクトが複数存在します。
+何度も ASDK をインストールすると、Azure AD にアプリケーション登録されたオブジェクトが複数存在します。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/6.png" class="full" width="600">
 
 Azure のクラウドシェル (Powershell) から下記コマンドを実行するだけで、簡単に Azure Stac Hub に関する 登録された アプリケーションオブジェクトを削除できます。 GUI から1つ1つ削除するのはかなり面倒なので、クラウドシェルから削除してみてください。

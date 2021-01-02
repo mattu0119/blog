@@ -1,7 +1,7 @@
 ---
 title: "Azure Stack HCI のメモ"
 date: 2020-12-30 20:30:00 +08:00
-last_modified_at: 2020-12-31 15:00:00 +08:00
+last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure Stack HCI
 ---

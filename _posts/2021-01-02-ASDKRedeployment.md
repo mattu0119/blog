@@ -116,6 +116,26 @@ Registration Name コマンド発行後に RegistrationName を指定できま�
 Azure ポータルから azurestack リソースグループに移動し、ロックを削除するこで、コマンドからリソースグループの削除が可能になります。  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/5.png" class="full" width="600">
 
+# Azure AD に Application 登録された Azure Stack Hub オブジェクトの削除
+何度も ASDK をインストールすると、Azure AD にアプリケーション登録されたオブジェクトが複数存在します。
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/6.png" class="full" width="600">
+
+Azure のクラウドシェル (Powershell) から下記コマンドを実行するだけで、簡単に Azure Stac Hub に関する 登録された アプリケーションオブジェクトを削除できます。 GUI から1つ1つ削除するのはかなり面倒なので、クラウドシェルから削除してみてください。
+
+1. クラウドシェルを起動して、AAD に接続します。
+    ```powershell
+    Connect-AzureAD
+    ```
+2. アプリケーション登録された Azure Stack Hub のオブジェクトを削除します。
+    ```powershell
+    Get-AzureADApplication -SearchString "Azure Stack" | Remove-AzureADApplication
+    ```
+3. Azure Stack Hub の登録されたオブジェクトが削除されたか確認します。
+    ```powershell
+    Get-AzureADApplication -SearchString "Azure Stack"
+    ```
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/AzSHub/Redeploy/7.png" class="full" width="600">
+
 ここまで完了すれば、キレイに Azure Stack のリソースを削除できたことになります。新しいバージョンの ASDK をインストールしてください！
 
 

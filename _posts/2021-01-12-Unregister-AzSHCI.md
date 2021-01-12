@@ -1,4 +1,11 @@
-# Azure Stack HCI の Azure 登録解除について
+---
+title: "Azure Stack HCI の Azure 登録解除"
+date: 2021-01-12 13:00:00 +08:00
+#last_modified_at: 2021-01-02 11:00:00 +08:00
+categories: 
+ - Azure Stack HCI
+---
+
 Azure Stack HCI のライセンスは、1 物理コア に対して US$10 が月額課金されます。登録し続けている限り課金が発生しますので、不要になった Azure Stack HCI は登録を解除し、リソースを削除する必要があります。
 
 Azure Stack HCI の登録解除は Azure CLI か Azure Powershell から実施可能です。今回は Azure Powershell から試してみます。

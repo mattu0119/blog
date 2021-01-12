@@ -5,7 +5,7 @@ date: 2021-01-11 13:00:00 +08:00
 categories: 
  - Azure Stack HCI
 ---
-+ [Azure Stack HCI を Azure に接続する](https://docs.microsoft.com/ja-jp/azure-stack/hci/deploy/register-with-azure)
++ [Azure Stack HCI を Azure に接続する](https://docs.microsoft.com/ja-jp/azure-stack/hci/deploy/register-with-azure/?WT.mc_id=AZ-MVP-5002708)
 Azure Stack HCI のライセンスは、1 物理コア に対して US$10 が月額課金されます。仮想マシンを構築して利用するには、Azure Stack HCI を Azure に登録する必要があります。
 
 また、Azure Stack HCI は Azure オンラインサービス条件にしたがってインストールから 30日以内に登録する必要があります。

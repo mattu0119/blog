@@ -25,7 +25,7 @@ Get-AzureStackHCI
 
 # Azure Stack HCI の登録解除
 ## Azure Powershell をインストールします。
-+ [Install Azure Powershell for Current User](https://docs.microsoft.com/ja-jp/powershell/azure/install-az-ps?view=azps-5.3.0#install-for-current-user)
++ [Install Azure Powershell for Current User](https://docs.microsoft.com/ja-jp/powershell/azure/install-az-ps?view=azps-5.3.0#install-for-current-user/?WT.mc_id=AZ-MVP-5002708)
 
 ```powershell
 if ($PSVersionTable.PSEdition -eq 'Desktop' -and (Get-Module -Name AzureRM -ListAvailable)) {

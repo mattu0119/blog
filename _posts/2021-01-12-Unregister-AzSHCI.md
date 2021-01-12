@@ -8,12 +8,14 @@ Azure Stack HCI の登録状況は Windows Admin Center や Powershell から確
 
 WAC から確認する場合は、クラスターマネージャーのダッシュボードから確認できます。  
 ![1](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/1.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/1.png" class="full" width="600">
 
 また、Powershell で確認する場合は、下記のコマンドを実行します。
 ```powershell
 Get-AzureStackHCI
 ```
 ![2](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/2.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/2.png" class="full" width="600">
 
 
 # Azure Stack HCI の登録解除
@@ -57,9 +59,11 @@ Unregister-AzStackHCI -SubscriptionId 12345678-abcd-1234-abcd-1234567890 -Resour
 icm -ComputerName azshci01 -ScriptBlock { get-azurestackhci }
 ```
 ![3](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/3.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/3.png" class="full" width="600">
 
 WAC から確認もできます。  
 ![4](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/4.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/4.png" class="full" width="600">
 
 # まとめ
 Azure Stack HCI を Azure に登録することで、Azure 経由でライセンスを支払いでき便利ですが、利用終了後は登録の削除を忘れずに実施して、無駄な課金を発生させないように気を付けたいですね。

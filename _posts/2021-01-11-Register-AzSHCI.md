@@ -1,4 +1,10 @@
-# Azure Stack HCI の登録
+---
+title: "Azure Stack HCI の Azure 登録"
+date: 2021-01-11 13:00:00 +08:00
+#last_modified_at: 2021-01-02 11:00:00 +08:00
+categories: 
+ - Azure Stack HCI
+---
 + [Azure Stack HCI を Azure に接続する](https://docs.microsoft.com/ja-jp/azure-stack/hci/deploy/register-with-azure)
 Azure Stack HCI のライセンスは、1 物理コア に対して US$10 が月額課金されます。仮想マシンを構築して利用するには、Azure Stack HCI を Azure に登録する必要があります。
 
@@ -92,18 +98,21 @@ Register-AzStackHCI `
 登録が完了すると、下記のように表示されます。
 
 ![Register](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/register.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/register.png" class="full" width="600">
 
 # Azure Stack HCI の登録状況確認
 Azure Stack HCI の登録状況は Windows Admin Center や Powershell から確認ができます。
 
 WAC から確認する場合は、クラスターマネージャーのダッシュボードから確認できます。  
 ![1](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/register2.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/register2.png" class="full" width="600">
 
 また、Powershell で確認する場合は、下記のコマンドを実行します。
 ```powershell
 Get-AzureStackHCI
 ```
 ![2](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/2.png)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/2.png" class="full" width="600">
 
 # まとめ
 Azure 登録が完了すれば、Azure Stack HCI OS のクラスターの機能を利用できるようになります。30日に1回は Azure に接続する必要があるので注意してください。登録後は、Azure ARC などを利用してハイブリッド管理の設定を進めてより便利に管理できるようになると思います。

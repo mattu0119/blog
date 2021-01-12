@@ -95,23 +95,21 @@ Register-AzStackHCI `
 
 コマンドを実行すると、登録を実行するユーザーのログインが求められるので、必要な権限を持つユーザーでログインしてください。
 
-登録が完了すると、下記のように表示されます。
+登録が完了すると、下記のように表示されます。  
 
-![Register](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/register.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/register.png" class="full" width="600">
 
 # Azure Stack HCI の登録状況確認
 Azure Stack HCI の登録状況は Windows Admin Center や Powershell から確認ができます。
 
 WAC から確認する場合は、クラスターマネージャーのダッシュボードから確認できます。  
-![1](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/register2.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/register2.png" class="full" width="600">
 
 また、Powershell で確認する場合は、下記のコマンドを実行します。
 ```powershell
 Get-AzureStackHCI
 ```
-![2](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/2.png)
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/2.png" class="full" width="600">
 
 # まとめ

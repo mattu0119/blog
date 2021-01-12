@@ -8,20 +8,18 @@ categories:
 
 Azure Stack HCI のライセンスは、1 物理コア に対して US$10 が月額課金されます。登録し続けている限り課金が発生しますので、不要になった Azure Stack HCI は登録を解除し、リソースを削除する必要があります。
 
-Azure Stack HCI の登録解除は Azure CLI か Azure Powershell から実施可能です。今回は Azure Powershell から試してみます。
+Azure Stack HCI の登録解除は Azure CLI か Azure Powershell から実施可能です。今回は Azure Powershell から試してみます。  
 
 # Azure Stack HCI の登録状況確認
 Azure Stack HCI の登録状況は Windows Admin Center や Powershell から確認ができます。
 
 WAC から確認する場合は、クラスターマネージャーのダッシュボードから確認できます。  
-![1](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/1.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/1.png" class="full" width="600">
 
 また、Powershell で確認する場合は、下記のコマンドを実行します。
 ```powershell
 Get-AzureStackHCI
 ```
-![2](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/2.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/2.png" class="full" width="600">
 
 
@@ -65,11 +63,9 @@ Unregister-AzStackHCI -SubscriptionId 12345678-abcd-1234-abcd-1234567890 -Resour
 ```powershell
 icm -ComputerName azshci01 -ScriptBlock { get-azurestackhci }
 ```
-![3](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/3.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/3.png" class="full" width="600">
 
 WAC から確認もできます。  
-![4](https://github.com/mattu0119/LabPrivate/blob/master/AzureStack/HCI/image/4.png)
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/Register/4.png" class="full" width="600">
 
 # まとめ

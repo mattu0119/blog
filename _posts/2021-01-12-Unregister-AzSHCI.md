@@ -53,10 +53,12 @@ WAC などの管理サーバーからリモートで AZSHCI ノードの登録�
 ```powershell
 Unregister-AzStackHCI -SubscriptionId 12345678-abcd-1234-abcd-1234567890 -ResourceName azshcicl -ResourceGroupName AZSHCI-RG -ComputerName azshci01
 ```
-コマンドの実行結果が下記の用に表示されれば登録削除が完了です。
+コマンドの実行結果が下記の用に表示されれば登録削除が完了です。  
+
 |Result|Details|
 |-----|-------|
 |Success|Azure Stack HCI is successfully unregistered. The Azure resource representing Azure Stack HCI has been deleted. Azure Stack HCI can't sync with Azure until you...|
+
 
 登録解除されたことを確認します。
 

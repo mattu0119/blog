@@ -1,7 +1,7 @@
 ---
 title: "Azure Stack HCI の Azure 登録"
 date: 2021-01-11 13:00:00 +08:00
-#last_modified_at: 2021-01-02 11:00:00 +08:00
+last_modified_at: 2021-01-20 11:00:00 +08:00
 categories: 
  - Azure Stack HCI
 ---
@@ -92,6 +92,10 @@ Register-AzStackHCI `
 -ResourceGroupName AZSHCI-RG `
 -Region eastus
 ```
+2021年1月20日の時点では、Azure Stack HCI を登録できるリージョンは下記の3つのみです。リージョンの指定に注意してください。
+1. East US
+1. Southeast Asia
+1. West Europe
 
 コマンドを実行すると、登録を実行するユーザーのログインが求められるので、必要な権限を持つユーザーでログインしてください。
 

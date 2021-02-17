@@ -69,6 +69,7 @@ DISKSPD を実行するパラメータは下記のものがあります。
 # 実行結果
 1. NVMe に対する測定結果の抜粋
     +  Total IO
+
     |thread|bytes|I/Os|MiB/s|I/O per s|AvgLat|IopsStdDev|LatStdDev|file|
     |--|--|--|--|--|--|--|--|--|
     |0|39494254592|9642152|313.87|80350.16|0.397|732.52|0.105|E:\IO.dat (5120MiB)|
@@ -121,6 +122,7 @@ DISKSPD を実行するパラメータは下記のものがあります。
     
     + ログデータは下記にアップロードしてありますので、ご参照ください。
     https://gist.github.com/mattu0119/0247f75fa3133c8ee1c3142a1571531e#file-vhdx-w40-txt
+
 
 
 

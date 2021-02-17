@@ -1,5 +1,5 @@
 ---
-title: "Hyper-V DDA を利用して NVMe SSD を仮想マシンにパススルー接続"
+title: "仮想マシンにパススルー接続した NVMe SSD と容量固定 VHDX の IO パフォーマンス測定"
 date: 2021-02-16 18:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 

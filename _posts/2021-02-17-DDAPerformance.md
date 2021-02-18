@@ -39,8 +39,8 @@ DISKSPD はインターネットからダウンロードできますが、Powers
    Expand-Archive -Path C:\DiskSpd.zip
    cd .\DiskSpd\
     ```
-1. 実行するサーバーによって、利用するバイナリを使い分けてください。
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/DDA-perf/1.png" class="full" width="600">
+1. 実行するサーバーによって、利用するバイナリを使い分けてください。  
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/DDA-Perf/1.png" class="full" width="600">
 
 ## DSKSPD の実行
 
@@ -126,7 +126,7 @@ DISKSPD を実行するパラメータは下記のものがあります。
 
 ## 実行結果のおまけ
 仮想マシンに VHDX 2つ接続し、Storage Space でミラーリングしたボリュームで計測してみました。  
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/DDA-perf/1.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/azshci/DDA-Perf/2.png" class="full" width="600">
 
 1. ミラーしたVHDX に対する測定結果の抜粋
     + Total IO

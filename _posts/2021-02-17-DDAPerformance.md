@@ -1,6 +1,6 @@
 ---
 title: "仮想マシンにパススルー接続した NVMe SSD と容量固定 VHDX の IO パフォーマンス測定"
-date: 2021-02-16 18:00:00 +08:00
+date: 2021-02-17 18:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure Stack HCI

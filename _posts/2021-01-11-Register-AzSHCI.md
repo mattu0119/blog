@@ -69,7 +69,7 @@ Azure Stack HCI の登録には、GUI と CLI の2種類の登録方法があり
 ```powershell
 Install-Module -Name Az.StackHCI
 ```
-モジュールがインストールされると、これらのコマンドを実行できるようになります。
+モジュールがインストールされると、これらのコマンドを実行できるようになります。もしエラーになる場合は、Powershell を閉じて再度起動してみてください。
 ```powershell
  Get-Command -Module Az.StackHCI
 

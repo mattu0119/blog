@@ -93,7 +93,7 @@ DISKSPD を実行するパラメータは下記のものがあります。
     |total|31584321536|7711016|251.01|64257.58|0.350|583.02|0.073|
 
     + ログデータは下記にアップロードしてありますので、ご参照ください。  
-    https://gist.github.com/mattu0119/de2a91b4e1543859a6204ea885b02fb1#file-nvme-w40-txt
+    [NVMe SSD performance](https://gist.github.com/mattu0119/de2a91b4e1543859a6204ea885b02fb1#file-nvme-w40-txt)
 
 1. VHDX に対する測定結果の抜粋
     + Total IO
@@ -121,7 +121,7 @@ DISKSPD を実行するパラメータは下記のものがあります。
     |total|       17370955776 |      4240956 |     138.03 |   35336.81 |    0.875 |     990.60 |     0.487|
     
     + ログデータは下記にアップロードしてありますので、ご参照ください。
-    https://gist.github.com/mattu0119/0247f75fa3133c8ee1c3142a1571531e#file-vhdx-w40-txt
+    [VHDX performance](https://gist.github.com/mattu0119/0247f75fa3133c8ee1c3142a1571531e#file-vhdx-w40-txt)
 
 
 ## 実行結果のおまけ
@@ -153,6 +153,8 @@ DISKSPD を実行するパラメータは下記のものがあります。
     | 1 |      8619372544 |      2104339 |      68.50 |   17535.06 |    0.932 |    1390.70 |     0.801 | F:\IO.dat (5120MiB)|
     |total|       12326748160 |      3009460 |      97.96 |   25077.26 |    1.251 |    1957.01 |     1.180|
 
+    + ログデータは下記にアップロードしてありますので、ご参照ください。
+    [Mirrored VHDX performance](https://gist.github.com/mattu0119/da2ba0870e68b00cf55bd4ee4d6171be#file-vhdx-w40-1-txt)
 
 # まとめ
 トータル IOPS では、やはり NVMe SSD のパフォーマンスがよいことがわかります。  

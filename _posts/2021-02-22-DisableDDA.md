@@ -11,6 +11,8 @@ categories:
 
 こんにちは。今回は DDA で仮想マシンにパススルー接続した NVMe SSD を Hyper-V ホストに接続しなおししてみます。  
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O2lijeRQ3g0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Hyper-V ホストに NVMeデバイスを戻す場合は、下記の順番で実施します。  
 1. 仮想マシンに接続したデバイスの *場所のパス* を確認
 1. 仮想マシンをシャットダウン

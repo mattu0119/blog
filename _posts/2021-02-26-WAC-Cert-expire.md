@@ -1,5 +1,5 @@
 ---
-title: "Windows Admin Center の証明書切れ"
+title: "Windows Admin Center の証明書切れによる証明書の更新"
 date: 2021-02-26 22:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 

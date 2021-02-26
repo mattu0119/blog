@@ -18,7 +18,7 @@ categories:
 そのため、今回は自己証明書を作成して有効期限の長い自己証明書を作成します。
 
 手順の動画はこちらから参照ください！
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/00W1BV2lqHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## 自己証明書の作成

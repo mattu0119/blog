@@ -4,6 +4,7 @@ date: 2020-11-07 23:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Hyper-V
+tags:
  - Nested ESXi
 ---
 

@@ -3,7 +3,6 @@ title: "Azure Stack HCI / Hyper-V 設計の Tips"
 date: 2020-09-07 10:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
- - Windows Server
  - Azure Stack HCI
 tags: 
  - Management

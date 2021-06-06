@@ -4,7 +4,6 @@ date: 2020-09-05 13:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Windows Server
- - Azure
 tags: 
  - Migration
  - Management

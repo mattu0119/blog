@@ -58,9 +58,9 @@ Azure ポータルからディスクを作成します。
 既存ディスクの SKU 変更も Azure ポータルから実施できます。
 1. まず、仮想マシンからディスクを切断します。  
     ※ 仮想マシンの停止では、共有ディスクを有効にできません。
-1. 次に「サイズおよびパフォーマンス」 から Premium SSD に変更し、共有ディスクがサポートされているサイズとパフォーマンスを選択します。
+1. 次に「サイズおよびパフォーマンス」 から Premium SSD に変更し、共有ディスクがサポートされているサイズとパフォーマンスを選択します。  
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/SharedDisk1/VM3.png" class="full" width="600">
-1. 念のため、ディスクサイズが変更されたことを確認します。
+1. 念のため、ディスクサイズが変更されたことを確認します。  
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/SharedDisk1/VM4.png" class="full" width="600">
 1. Cloud Shell を Powershell で起動します。
 1. このコマンドを発行し、共有ディスクが有効になっているか確認します。MaxShares の値に何もなければ、共有ディスクが有効になっていない状態です。

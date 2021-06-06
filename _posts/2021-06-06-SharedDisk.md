@@ -3,6 +3,7 @@ title: "Azure 共有ディスクの利用"
 date: 2021-06-06 23:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
+ - Azure
  - Azure VM
  - Azure Shared Disk
 ---

@@ -4,6 +4,7 @@ date: 2021-04-14 23:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure Stack HCI
+tags:
  - BSOD
  - Memory Dump
 ---

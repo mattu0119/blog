@@ -15,7 +15,7 @@ Azure では、*コスト管理と請求* という機能を利用して、Azure
 
 Azure ポータルから「コスト」で検索すると、「コストの管理と請求」に簡単にアクセスできます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/1.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/1.png" class="full" width="900">
 
 ## コストを確認できる組み込みロール
 Azure Cost Management からリソースのコストを確認できるロールの一覧です。
@@ -32,7 +32,7 @@ Azure Cost Management からリソースのコストを確認できるロール�
 
 コストの確認のみができるユーザーを準備したい場合は、コストを把握したサブスクリプションのアクセス制御から `コスト管理の閲覧者` の権限をユーザーに付与してあげれば OK です。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/2.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/2.png" class="full" width="900">
 
 ## コストを確認できるサブスクリプションの種類
 + [Azure のオンボード オプション](https://docs.microsoft.com/ja-jp/azure/cost-management-billing/costs/cost-mgt-best-practices#azure-onboarding-options)
@@ -75,7 +75,7 @@ Azure Cost Management からリソースのコストを確認できるロール�
 コストを確認できる権限や Azure プランであれば、コスト分析からコストを確認することができます。  
 *実際のコスト(濃い緑)* や *予測グラフ(薄い緑)* による今のリソースを使い続けたらいくらかかるのかという表示もあり、何も設定する必要なしにグラフで表示してくれます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/3.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/3.png" class="full" width="900">
 
 作成したリソースに対していくらかかっているかを確認したい場合は、グラフの表示方法を変更することが可能です。  
 + グループ化 → リソース
@@ -84,11 +84,11 @@ Azure Cost Management からリソースのコストを確認できるロール�
 
 このように表示を変更すると、それぞれのリソースにいくらかかっているかを簡単に確認することができます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/4.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/4.png" class="full" width="900">
 
 このテーブル表示の場合、仮想マシンや Azure Firewall の Outbound の Bandwidth でどれくらい課金されたのかを確認することが可能です。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="900">
 
 何にいくらかかっているか詳細な確認がしたいときにぜひ試してみてください。
 
@@ -98,15 +98,15 @@ Azure Cost Management では予算を作成することができます。月の�
 ### 予算アラートの作成方法
 コストのアラートから追加と選択します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="900">
 
 次に予算を設定します。予算のリセット期間は、月や年などから柔軟に選択が可能です。今回は月で設定してみます。また、毎月の予算は 1万円に設定します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="900">
 
 最後に、毎月の予算 1万円のうち 何％ を消費したらアラート通知するかを設定します。警告条件は複数作成できますので、予想外の課金が発生した場合などに早めに気づくことができます。メール通知も日本語や英語などに対応しています。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="600">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Azure/CostManagement1/5.png" class="full" width="900">
 
 この設定をするだけで予算を消費したタイミングでメール通知を受診することが可能になります。
 

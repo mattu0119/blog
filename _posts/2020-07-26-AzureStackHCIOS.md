@@ -4,8 +4,8 @@ date: 2020-07-26 00:00:00 +08:00
 last_modified_at: 2020-08-09 17:00:00 +08:00
 categories: 
 - Azure Stack HCI
-tags: 
-- Azure Stack HCI
+#tags: 
+#- Azure Stack HCI
 ---
 
 # Azure Stack HCI Ver.20H2 とは

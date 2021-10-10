@@ -4,8 +4,8 @@ date: 2021-02-26 22:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Windows Admin Center 
-tags:
- - WAC
+# tags:
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/004gio5wDxM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

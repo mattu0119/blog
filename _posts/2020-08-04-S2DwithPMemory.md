@@ -5,7 +5,7 @@ date: 2020-08-04 18:00:00 +08:00
 categories: 
  - Azure Stack HCI
 tags: 
- - Azure Stack HCI
+# - Azure Stack HCI
  - Persistent Memory
  - NVDIMM
 ---

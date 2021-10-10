@@ -3,8 +3,8 @@ title: "WAC 2007 の Cluster Creation でクラスター検証エラー"
 date: 2020-07-26 00:00:00 -0000
 categories: 
  - Azure Stack HCI
-tags: 
- - Azure Stack HCI
+#tags: 
+# - Azure Stack HCI
 ---
 
 # Azure Stack HCI 20H2 を WAC から構成する際にクラスター検証でエラーで進めないエラー

@@ -5,8 +5,7 @@ date: 2021-06-06 23:00:00 +08:00
 categories: 
  - Azure
 tags:
-- Azure VM
- - Azure Shared Disk
+- Managed Disks
 ---
 
 ## Azure 共有ディスクとは

@@ -3,7 +3,8 @@ title: "Azure のコストを把握する！"
 date: 2021-10-06 22:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
- - Azure 
+ - Azure
+Tags:
  - Cost Management
 ---
 

@@ -3,9 +3,9 @@ title: "Microsoft Inspire 2020 のセッション"
 date: 2020-08-03 18:00:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
+ - Event
+tags: 
  - Inspire 2020
-#tags: 
-# - Azure Stack HCI
 ---
 
 # Microsoft Inspire 2020 のセッション情報

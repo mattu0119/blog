@@ -2,7 +2,7 @@
 title: "Azure のコストを把握する！"
 date: 2021-10-06 22:00:00 +08:00
 last_modified_at: 2021-10-11 00:30:00 +08:00
-#categories:
+categories:
 - Azure 
 Tags:
 - Azure

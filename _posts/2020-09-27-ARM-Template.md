@@ -4,8 +4,8 @@ date: 2020-09-27 15:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Azure
-tags: 
- - ARM Template
+#tags: 
+# - ARM Template
 ---
 
 ## ARM テンプレートの内容

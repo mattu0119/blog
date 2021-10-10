@@ -4,8 +4,8 @@ date: 2021-01-02 13:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure Stack Hub
-tags:
- - Azure Stack Hub Development Kit
+#tags:
+# - Azure Stack Hub Development Kit
 ---
 # はじめに
 Azure Stack Hub Development Kit (ASDK) の再インストールについてです。  ASDK は、Azure Stack Hub の POC バージョンで、シングルノードにインストールして利用することができます。POC 用途になるので、バージョンアップなどを実施することができず、新しいバージョンで再インストールする必要があります。  

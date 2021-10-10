@@ -4,8 +4,8 @@ date: 2021-10-06 22:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure
-Tags:
- - Cost Management
+#Tags:
+# - Cost Management
 ---
 
 こんにちは。Azure でリソースを利用した際、何のリソースにいくら支払うかを確認する方法をご紹介します。  

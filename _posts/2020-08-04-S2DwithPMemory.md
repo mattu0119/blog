@@ -6,8 +6,8 @@ categories:
  - Azure Stack HCI
 tags: 
 # - Azure Stack HCI
- - Persistent Memory
- - NVDIMM
+# - Persistent Memory
+# - NVDIMM
 ---
 ## Hyper-V で NVDIMM
 

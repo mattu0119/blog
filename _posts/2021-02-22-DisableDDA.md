@@ -4,10 +4,10 @@ date: 2021-02-22 14:00:00 +08:00
 #last_modified_at: 2021-01-02 11:00:00 +08:00
 categories: 
  - Azure Stack HCI
-tags:
- - DDA
- - Discrete Device Assignment
- - 個別のデバイス割り当て
+#tags:
+# - DDA
+# - Discrete Device Assignment
+# - 個別のデバイス割り当て
 ---
 
 こんにちは。今回は DDA で仮想マシンにパススルー接続した NVMe SSD を Hyper-V ホストに接続しなおししてみます。  

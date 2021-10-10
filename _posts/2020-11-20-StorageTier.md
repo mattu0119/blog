@@ -4,8 +4,8 @@ date: 2020-11-20 15:00:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Azure Stack HCI
-tags:
- - Storage Spaces Direct
+#tags:
+# - Storage Spaces Direct
 ---
 
 Azure Stack HCI は Storage Spaces Direct を利用した HCI の仮想基盤です。HDD や SSD など複数の種類のディスクを搭載した構成の場合は、高速ディスクをキャッシュ、低速ディスクをキャパシティとして構成することや、ストレージ階層を利用した階層ストレージ構成にすることもできます。

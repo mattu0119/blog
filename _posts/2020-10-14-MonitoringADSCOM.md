@@ -4,10 +4,10 @@ date: 2020-10-14 23:00:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - System Center
-tags: 
- - Windows Server 2003
- - Active Directory
- - SCOM
+#tags: 
+# - Windows Server 2003
+# - Active Directory
+# - SCOM
 ---
 
 SCOM エージェントをインストールして Active Directory の監視を行う場合、エージェントのインストールだけでは Active Directory の監視をできるようなりません。  

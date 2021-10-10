@@ -4,8 +4,8 @@ date: 2020-09-07 10:30:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Azure Stack HCI
-tags: 
- - Management
+#tags: 
+# - Management
 ---
 
 + [Cluster size recommendations for ReFS and NTFS](https://techcommunity.microsoft.com/t5/storage-at-microsoft/cluster-size-recommendations-for-refs-and-ntfs/ba-p/425960)

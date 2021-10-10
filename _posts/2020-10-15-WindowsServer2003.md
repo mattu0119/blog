@@ -4,10 +4,10 @@ date: 2020-10-15 16:00:00 +08:00
 # last_modified_at: 2020-08-03 09:00:00 +08:00
 categories: 
  - Windows Server
-tags:
- - Windows Server 2003
- - Windows Server 2019
- - Active Directory
+#tags:
+# - Windows Server 2003
+# - Windows Server 2019
+# - Active Directory
 ---
 
 まだ Windows Server 2003 を利用されている人がどれくらいいるかわかりませんが、、、。  

@@ -1,6 +1,6 @@
 ---
 title: "Hyper-V 仮想マシンに Windows 11 をクリーンインストール"
-date: 2021-10-20 18:00:00 +08:00
+date: 2021-10-20 23:00:00 +08:00
 # last_modified_at: 2021-10-11 00:30:00 +08:00
 categories:
 - Windows 11

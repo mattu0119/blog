@@ -48,18 +48,18 @@ Windows 11 の ISO ファイルを準備したら、仮想マシンにインス�
 
 仮想マシンを作成したら、Windows 11 ISO をマウントして、ISO ファイルからブートします。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/2.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/2.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/3.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/3.png" class="full" width="900">
 
 ISO ブートが完了したら、**Shit + F10 ** を押下します。するとコマンドプロンプトが起動します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/4.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/4.png" class="full" width="900">
 
 コマンドプロンプトから Windows11 の要件である CPU や TPM2.0 の要件をバイパスするレジストリを追加するコマンドを実行します。
 仮想マシンコンソールのクリップボードから入力をクリックすることで、コピペすることができます。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/5.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/5.png" class="full" width="900">
 
 
 ```Powershell
@@ -67,7 +67,7 @@ reg add HKLM\SYSTEM\Setup\MoSetup /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG
 reg add HKLM\SYSTEM\Setup\LabCOnfig /v BypassTPMCheck /t REG_DWORD /d 1 /f
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/6.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/6.png" class="full" width="900">
 
 レジストリの設定確認については、こちらのコマンドで実施してください。
 ```Powershell
@@ -77,61 +77,61 @@ reg query HKLM\SYSTEM\Setup\LabCOnfig
 
 レジストリの追加が完了したら Windows セットアップウィザードを進めて Windows 11 をインストールします。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/7.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/7.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/8.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/8.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/9.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/9.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/10.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/10.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/11.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/11.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/12.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/12.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/13.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/13.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/14.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/14.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/15.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/15.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/16.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/16.png" class="full" width="900">
 
 地域を選択して、
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/17.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/17.png" class="full" width="900">
 
 キーボードレイアウトを選択して、
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/18.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/18.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/19.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/19.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/20.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/20.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/21.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/21.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/22.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/22.png" class="full" width="900">
 
 セキュリティの質問を設定して、
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/23.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/23.png" class="full" width="900">
 
 プライバシー設定に同意して、
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/24.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/24.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/25.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/25.png" class="full" width="900">
 
 もう少し待てば、
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/26.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/26.png" class="full" width="900">
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/27.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/27.png" class="full" width="900">
 
 Windows 11 のインストールが完了します。
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleamInstall/29.png" class="full" width="900">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/29.png" class="full" width="900">
 
 Windows11 のシステム要件を満たしていないハードウェアで利用する場合は、更新プログラムやトラブル時のサポートを受けられない可能性があります。
 この手順で実施する場合は、その注意点を承諾して利用するということになりますので、重要な用途で利用する場合はサポートされる構成で利用してください。

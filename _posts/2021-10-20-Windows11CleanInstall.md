@@ -1,7 +1,7 @@
 ---
 title: "Hyper-V 仮想マシンに Windows 11 をクリーンインストール"
 date: 2021-10-20 23:00:00 +08:00
-# last_modified_at: 2021-10-11 00:30:00 +08:00
+last_modified_at: 2021-10-20 09:45:00 +08:00
 categories:
 - Windows 11
 ---
@@ -65,6 +65,11 @@ ISO ブートが完了したら、**Shit + F10 ** を押下します。すると
 ```Powershell
 reg add HKLM\SYSTEM\Setup\MoSetup /v AllowUpgradesWithUnsupportedTPMOrCPU /t REG_DWORD /d 1 /f
 reg add HKLM\SYSTEM\Setup\LabCOnfig /v BypassTPMCheck /t REG_DWORD /d 1 /f
+```
+
+なお、セキュアブートのシステム要件もバイパスしたい場合は下記のコマンドによりレジストリを追加すれば OK です。
+```Powershell
+reg add HKLM\SYSTEM\Setup\LabCOnfig /v BypassSecureBootCheck /t REG_DWORD /d 1 /f
 ```
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Windows11/CleanInstall/6.png" class="full" width="900">

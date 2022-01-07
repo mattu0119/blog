@@ -5,9 +5,11 @@ date: 2022-01-07 16:00:00 +08:00
 categories:
 - Azure
 ---
+
 こんにちは。
-Azure Powershell から Azure リソースに RBAC の設定をしようとしたら、Bad Request となり設定できませんでした。
+Azure Powershell から Azure リソースに RBAC の設定をしようとしたら、Bad Request となり設定できませんでした。  
 手順としては、下記の「アクセス権の付与」を実施するとエラーになります。
+
 + [アクセス権の付与](https://docs.microsoft.com/ja-jp/azure/role-based-access-control/tutorial-role-assignments-user-powershell#grant-access)
 
 ステップ3の、閲覧者権限を割り当てる `New-AzRoleAssignment` コマンドで下記のようにエラーとなります。
@@ -20,9 +22,9 @@ Visit https://go.microsoft.com/fwlink/?linkid=2181475 for any permission issues.
 New-AzRoleAssignment: Operation returned an invalid status code 'BadRequest'
 ```
 
-調べてみると、`New-AzRoleAssignment` コマンドは `Az.Resources` モジュールに含まれており、そのモジュールを最新にすることで問題なく RBAC の権限割り当てができるようになりました。
+調べてみると、`New-AzRoleAssignment` コマンドは `Az.Resources` モジュールに含まれており、そのモジュールを最新にすることで問題なく RBAC の権限割り当てができるようになりました。  
 
-そのため、Az.Resources モジュールを最新の 5.2.0 にアップデートし、再度同じコマンドを実行してみます。
+そのため、Az.Resources モジュールを最新の 5.2.0 にアップデートし、再度同じコマンドを実行してみます。  
 
 念のため、現在インストールされている Az.Resource モジュールのバージョンを確認します。
 ```Powershell
@@ -30,6 +32,7 @@ Get-Module -Name Az.Resources
 ```
 
 次に、Az.Resources モジュールのアップデートを実施します。`-Force` オプションを付けないとアップデートできないので注意してください。
+
 ```Powershell
 Install-Module -Name Az.Resources -Repository PSGallery -Scope CurrentUser -Force
 ```

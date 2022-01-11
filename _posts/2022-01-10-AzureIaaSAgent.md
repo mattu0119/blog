@@ -28,5 +28,15 @@ Azure Diagnostics 拡張機能は、仮想マシンを含む Azure コンピュ�
 1. ゲストのログおよびメトリックをアーカイブ用に Azure Storage に送信する。
 1. ゲストのログおよびメトリックを Azure の外部に送信するために Azure Event Hubs に送信する。
 
+## Dependency エージェント
 
+```Powershell
+Set-AzVMExtension -ExtensionName "Microsoft.Azure.Monitoring.DependencyAgent" `
+    -ResourceGroupName "rg-image" `
+    -VMName "2008VM" `
+    -Publisher "Microsoft.Azure.Monitoring.DependencyAgent" `
+    -ExtensionType "DependencyAgentWindows" `
+    -TypeHandlerVersion 9.5 `
+    -Location swedencentral
+```
 
